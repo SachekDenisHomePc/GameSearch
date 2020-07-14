@@ -1,4 +1,4 @@
-﻿namespace GameSearch.Data.Entities.RatingDescription
+﻿namespace GameSearch.DataLayer.Entities.RatingDescription
 {
     public enum Rating
     {

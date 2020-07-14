@@ -1,4 +1,4 @@
-﻿namespace GameSearch.Data.Interface
+﻿namespace GameSearch.DataLayer.Interface
 {
     public interface IEntity
     {

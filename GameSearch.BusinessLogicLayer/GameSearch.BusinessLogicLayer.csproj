@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EntityFrameworkCore.Exceptions.SqlServer" Version="3.1.1" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.5" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\GameSearch.DataAccesLayer\GameSearch.DataAccessLayer.csproj" />
     <ProjectReference Include="..\GameSearch.Data\GameSearch.DataLayer.csproj" />
   </ItemGroup>
 
